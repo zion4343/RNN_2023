@@ -7,9 +7,9 @@ import random
 import numpy as np
 import tensorflow as tf
 import transformer_models as models
-from tensorflow.python.keras import optimizers
-from tensorflow.python.keras import losses
-from tensorflow.python.keras import metrics
+from tensorflow.keras import optimizers
+from tensorflow.keras import losses
+from tensorflow.keras import metrics
 from Prepare_Data import Vocab
 from Prepare_Data import DataLoader
 
