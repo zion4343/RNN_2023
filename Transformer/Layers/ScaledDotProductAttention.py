@@ -5,7 +5,7 @@ query, key, valueの3つの側面で考える
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.layers import Layer
+from tensorflow.keras.layers import Layer
 
 
 class ScaledDotProductAttention(Layer):
