@@ -6,7 +6,7 @@ Add(残差接続）はモデルのcall()内で実装する
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.layers import Layer
+from tensorflow.keras.layers import Layer
 
 #バッチ正規化をミニバッチ単位ではなくデータごとに行う処理
 class LayerNormalization(Layer):
