@@ -4,7 +4,7 @@ Scaled Dot-Product Attentionを並列に行う手法
 '''
 
 import tensorflow as tf
-from tensorflow.python.keras.layers import Layer
+from tensorflow.keras.layers import Layer
 from .ScaledDotProductAttention import ScaledDotProductAttention
 
 
