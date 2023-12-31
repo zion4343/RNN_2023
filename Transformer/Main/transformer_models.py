@@ -6,8 +6,8 @@ import os
 import random
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras.layers import Dense, LSTM, Embedding, Dropout
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Dense, LSTM, Embedding, Dropout
 from Layers import PositionalEncoding
 from Layers import LayerNormalization
 from Layers import MultiHeadAttention
