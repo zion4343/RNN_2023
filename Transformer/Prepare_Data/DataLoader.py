@@ -6,7 +6,7 @@ Data Loader
 import numpy as np
 from sklearn.utils import shuffle
 import tensorflow as tf
-from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 class DataLoader(object):
