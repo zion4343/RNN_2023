@@ -5,7 +5,7 @@ LSTMやGRUなどの再起的な処理の代わりに、系列データに直接�
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.layers import Layer
+from tensorflow.keras.layers import Layer
 
 
 class PositionalEncoding(Layer):
