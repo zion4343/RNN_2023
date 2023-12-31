@@ -6,7 +6,7 @@ import os
 import random
 import numpy as np
 import tensorflow as tf
-from transformer_models import Transformer
+import transformer_models as models
 from tensorflow.python.keras import optimizers
 from tensorflow.python.keras import losses
 from tensorflow.python.keras import metrics
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     depth_x = len(en_vocab.i2w)
     depth_t = len(ja_vocab.i2w)
 
-    model = Transformer(depth_x, depth_t, N=3, h=4, d_model=128, d_ff=256, maxlen=20)
+    model = models.Transformer(depth_x, depth_t, N=3, h=4, d_model=128, d_ff=256, maxlen=20)
 
 
     '''
