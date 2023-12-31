@@ -21,8 +21,8 @@ if __name__ == '__main__':
     1. データの準備
     '''
     #Vocabを使い辞書を構築
-    data_dir_en = os.path.join(os.path.dirname(__file__), 'Data.en')
-    data_dir_ja = data_dir_en = os.path.join(os.path.dirname(__file__), 'Data.ja')
+    data_dir_en = os.path.join(os.path.dirname(__file__), 'Data')
+    data_dir_ja = data_dir_en = os.path.join(os.path.dirname(__file__), 'Data')
 
     en_train_path = os.path.join(data_dir_en, 'train.en')
     en_val_path = os.path.join(data_dir_en, 'dev.en')
